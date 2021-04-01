@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,79 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* ************************************************************************************************************* */
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@300");
+
+* {
+  box-sizing: border-box;
+}
+
+/* * Element Selectors * */
+
+body {
+  font-family: 'Newsreader', serif;
+  color: black;
+  background-color: #deeaee;
+}
+/* * Class Selectors * */
+
+.jumbotron {
+  background: url("assets/img/jumbotron-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 65rem;
+}
+
+.thin-bottom-border {
+  border-bottom: 0.5px ridge;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.card {
+  border: none;
+}
+
+.cards {
+  height: 40rem;
+  padding: 1.5rem;
+}
+
+.content-col {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+} 
+
+.city-desc-par {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+/** ID Selectors **/
+@media(min-width: 35.9375rem) {
+  #navBar {
+      align-items: flex-end;
+  }
+}
+
+@media (min-width: 35.9375rem) {
+  #mobile-branding {
+      display: none;
+      color: red;
+  }
+}
+#navBar {
+  background-color: white;
+}
+
+#form-div {
+  margin: 26rem auto;
+  color: red;
+}
+
+#testing {
+  color: red;
 }
